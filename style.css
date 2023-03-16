@@ -1,0 +1,89 @@
+body {
+  color: #4C4B16;
+  background-color: #F7F1E5;
+  font-family: fantasy;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1{
+  color:#4C4B16;
+  font-family: fantasy;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+h2, h3{
+  color: #4C4B16;
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  font-family: fantasy;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4C4B16;
+}
+
+i{
+  font-size: x-large;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 768px;
+  background-color: #FEFAE0;
+  border: 0px solid rgb(140, 140, 140);
+  padding: 30px;
+  border-radius: 4px;
+  margin: 10px auto;
+  box-shadow: 0 10px 30px rgba(1, 1, 1, 0.1);
+}
+
+.card{
+  width: 768px;
+  background-color: #FEFAE0;
+  border: 0px solid rgb(140, 140, 140);
+  padding: 30px;
+  border-radius: 4px;
+  margin: 10px auto;
+  box-shadow: 0 10px 30px rgba(1, 1, 1, 0.1);
+}
+
+.btn-blue {
+  background-color: #CCD5AE;
+  color:#FEFAE0;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+.list-inline{
+  display: inline-block;
+  padding: 0px 5px;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 500px)  and (max-width: 768px) {
+  .container {
+    width: 80%;
+    padding-left: 23px;
+    font-size: 14px;
+  }
+  .card{
+    width: 80%;
+    padding-left: 23px;
+    font-size: 14px;
+  }
+}
